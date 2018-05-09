@@ -1,0 +1,47 @@
+/*
+Theme Name: Zerif Lite Child
+Theme URI: 
+description: >-
+  Zerif Lite Child
+Author: Mak Olivares
+Author URI: makolivares.online
+Template: zerif-lite
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: zerif-lite-child
+*/
+@import url("../zerif-lite/style.css");
+
+/* CUSTOM CSS */
+div#main-nav {
+    background: #2585bd;
+}
+.navbar-inverse .navbar-brand .site-title a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand .site-title-tagline-wrapper .site-title > a:hover, .navbar-inverse .navbar-brand .site-title-tagline-wrapper .site-title > a:focus {
+    color: #fff;
+    border-bottom: dashed 1px #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    border-bottom: dashed 1px #fff
+}
+i.pixeden {
+    background-size: 73% !important;
+}
+.navbar-inverse .navbar-nav > li.current > a {
+    color: #fff;
+}
+.separator-one {
+    padding: 100px 0 100px 0;
+    background: rgba(50, 133, 192, 0.75);
+}
+#footer {
+    background: #0f0f0f;
+}
